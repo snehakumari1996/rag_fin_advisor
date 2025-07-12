@@ -1,0 +1,15 @@
+# Python / IDE junk
+__pycache__/       .ipynb_checkpoints/   .env        *.venv/
+
+# Colab artefacts
+.config/drive/
+
+# Big data we keep outside git
+data/raw/          data/faiss_index/     raw_zips/
+data/processed/
+
+# Checkpoints & logs
+*.safetensors      *.ckpt                *.log       *.csv
+
+# Other binaries
+*.pdf              *.zip

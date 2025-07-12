@@ -1,0 +1,36 @@
+txt# Core Dependencies
+langchain==0.1.0
+langchain-community==0.1.0
+langchain-core==0.1.0
+openai==1.6.0
+faiss-cpu==1.7.4
+tiktoken==0.5.2
+
+# Document Processing
+PyMuPDF==1.23.8
+pandas==2.1.4
+openpyxl==3.1.2
+
+# Web Crawling
+requests==2.31.0
+beautifulsoup4==4.12.2
+selenium==4.16.0
+undetected-chromedriver==3.5.4
+cloudscraper==1.2.71
+fake-useragent==1.4.0
+
+# ML/Embeddings
+sentence-transformers==2.2.2
+transformers==4.36.0
+torch==2.1.0
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+pydantic==2.5.0
+
+# Optional (for production)
+fastapi==0.108.0
+uvicorn==0.25.0
+prometheus-client==0.19.0
+redis==5.0.1
