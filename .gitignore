@@ -6,3 +6,5 @@ data/raw/  data/faiss_index/  raw_zips/  data/processed/
 config/api_key.txt
 .env
 config/api_key.txt
+.env
+config/api_key.txt
