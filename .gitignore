@@ -14,3 +14,6 @@ config/api_key.txt
 # secrets
 .env
 config/api_key.txt
+
+# gradio runtime noise
+.gradio/
