@@ -4,3 +4,5 @@ data/raw/  data/faiss_index/  raw_zips/  data/processed/
 *.safetensors *.ckpt *.log *.csv *.pdf *.zip
 .env
 config/api_key.txt
+.env
+config/api_key.txt
