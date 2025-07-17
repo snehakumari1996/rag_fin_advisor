@@ -1,0 +1,92 @@
+{
+  "What documents do I need to open a demat account?": {
+    "answer": "To open a demat account, you will need the following mandatory documents:\n\n1. Identity Proof (Any One):\n   - PAN Card (mandatory for all)\n   - Aadhaar Card\n   - Passport\n   - Voter ID Card\n   - Driving License\n\n2. Address Proof (Any One):\n   - Aadhaar Card\n   - Bank Statement (not older than 3 months)\n   - Utility Bill (not older than 3 months)\n   - Passport\n   - Rent Agreement (registered)\n\n3. Bank Proof:\n   - Cancelled cheque with name printed\n   - Bank Statement/Passbook\n\n4. Income Proof (For F&O):\n   - Salary Slip (latest 3 months)\n   - ITR with acknowledgment\n   - Form 16\n   - Bank Statement (6 months)\n\nThese documents are required as per SEBI guidelines for demat account opening. Make sure to have all the necessary documents in place to avoid any delays in the account opening process.",
+    "warnings": [
+      {
+        "category": "compliance",
+        "pattern": "demat\\s+account|trading\\s+account",
+        "warning": "\u2139\ufe0f Ensure your broker is SEBI registered. Check at www.sebi.gov.in"
+      }
+    ],
+    "sources": [
+      {
+        "name": "demat_account_guide.txt",
+        "regulator": "Unknown",
+        "doc_type": "Unknown",
+        "chunk": 2,
+        "total_chunks": 1
+      },
+      {
+        "name": "payment_guidelines.txt",
+        "regulator": "Unknown",
+        "doc_type": "Unknown",
+        "chunk": 2,
+        "total_chunks": 1
+      },
+      {
+        "name": "investor_charter.txt",
+        "regulator": "Unknown",
+        "doc_type": "Unknown",
+        "chunk": 2,
+        "total_chunks": 1
+      }
+    ],
+    "timestamp": "2025-07-15T12:14:14.797314"
+  },
+  "if i use a fake identity what chages can a person face?\n": {
+    "answer": "Using a fake identity to open a demat account or engage in financial transactions is illegal and can lead to severe consequences. As per SEBI regulations and Indian securities laws, providing false information or using fraudulent documents for account opening is considered a criminal offense. \n\nIf caught using a fake identity, the individual can face legal action, including fines, imprisonment, and a ban from participating in the stock market. Additionally, the individual may be subject to penalties under the Prevention of Money Laundering Act (PMLA) and other relevant laws.\n\nIt is crucial to always provide genuine and accurate information when opening financial accounts or conducting transactions to avoid legal repercussions and protect your financial integrity. It is recommended to strictly adhere to the KYC requirements and provide valid documents to comply with regulatory guidelines.",
+    "warnings": [],
+    "sources": [
+      {
+        "name": "demat_account_guide.txt",
+        "regulator": "Unknown",
+        "doc_type": "Unknown",
+        "chunk": 2,
+        "total_chunks": 1
+      },
+      {
+        "name": "payment_guidelines.txt",
+        "regulator": "Unknown",
+        "doc_type": "Unknown",
+        "chunk": 2,
+        "total_chunks": 1
+      },
+      {
+        "name": "investor_charter.txt",
+        "regulator": "Unknown",
+        "doc_type": "Unknown",
+        "chunk": 2,
+        "total_chunks": 1
+      }
+    ],
+    "timestamp": "2025-07-15T13:16:45.312023"
+  },
+  "kyc requirements for this?\n": {
+    "answer": "For demat account opening, the KYC requirements include providing identity proof, address proof, bank proof, and income proof (if trading in F&O). As per SEBI guidelines, identity proof can be any one of PAN Card, Aadhaar Card, Passport, Voter ID Card, or Driving License. Address proof can be Aadhaar Card, Bank Statement, Utility Bill, Passport, or Rent Agreement. Bank proof requires a cancelled cheque with the name printed or a Bank Statement/Passbook. Income proof for F&O trading includes Salary Slip (latest 3 months), ITR with acknowledgment, Form 16, or Bank Statement (6 months).\n\nIt is essential to ensure all documents are valid, up-to-date, and meet the specified requirements to comply with SEBI regulations. Failure to provide accurate and complete KYC documents may result in delays in account opening or even rejection. It is crucial to follow the specified guidelines to avoid any compliance issues.",
+    "warnings": [],
+    "sources": [
+      {
+        "name": "payment_guidelines.txt",
+        "regulator": "Unknown",
+        "doc_type": "Unknown",
+        "chunk": 2,
+        "total_chunks": 1
+      },
+      {
+        "name": "demat_account_guide.txt",
+        "regulator": "Unknown",
+        "doc_type": "Unknown",
+        "chunk": 2,
+        "total_chunks": 1
+      },
+      {
+        "name": "investor_charter.txt",
+        "regulator": "Unknown",
+        "doc_type": "Unknown",
+        "chunk": 2,
+        "total_chunks": 1
+      }
+    ],
+    "timestamp": "2025-07-15T13:17:31.797685"
+  }
+}

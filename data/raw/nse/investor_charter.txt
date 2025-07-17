@@ -1,0 +1,26 @@
+
+NSE INVESTOR CHARTER AND RIGHTS
+
+1. INVESTOR RIGHTS:
+   - Right to receive contract notes within 24 hours
+   - Right to receive funds/securities on settlement
+   - Right to grievance redressal
+   - Right to investor protection fund
+
+2. BROKER OBLIGATIONS:
+   - Provide risk disclosure document
+   - Maintain client records
+   - Segregate client securities
+   - Provide regular statements
+
+3. COMPLAINT MECHANISM:
+   Level 1: Broker grievance cell (7 days)
+   Level 2: NSE IGC - ignse@nse.co.in (15 days)
+   Level 3: SEBI SCORES portal (30 days)
+   Level 4: SEBI Ombudsman
+   
+4. INVESTOR PROTECTION FUND:
+   - Covers broker default
+   - Up to Rs 25 lakh per investor
+   - Claims within 3 years
+   - Documentation required

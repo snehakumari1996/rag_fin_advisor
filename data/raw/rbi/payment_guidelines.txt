@@ -1,0 +1,28 @@
+
+RBI GUIDELINES FOR DIGITAL PAYMENTS AND BANKING
+
+1. PAYMENT SYSTEM REGULATIONS:
+
+A. Fund Transfer Limits:
+   - NEFT: No limit
+   - RTGS: Minimum Rs 2 lakh
+   - IMPS: Up to Rs 5 lakh
+   - UPI: Rs 1 lakh per transaction
+
+B. KYC Requirements:
+   - Full KYC for accounts above Rs 50,000
+   - Video KYC allowed
+   - Periodic updation mandatory
+   - Aadhaar linkage optional
+
+2. INVESTOR PROTECTION:
+   - Unauthorized transaction reporting: Within 3 days
+   - Zero liability if reported immediately
+   - Limited liability based on delay
+   - Grievance redressal within 30 days
+
+3. DIGITAL BANKING SECURITY:
+   - 2-factor authentication mandatory
+   - OTP validity: 3-5 minutes
+   - Password complexity requirements
+   - Regular security audits required

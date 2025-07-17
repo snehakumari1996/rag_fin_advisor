@@ -1,0 +1,48 @@
+
+SEBI TRADING REGULATIONS AND COMPLIANCE
+
+1. PROHIBITED ACTIVITIES:
+
+A. Insider Trading:
+   - Trading on UPSI (Unpublished Price Sensitive Information)
+   - Penalty: Up to Rs 25 crores or 3x profit
+   - Criminal prosecution possible
+   - Imprisonment up to 10 years
+
+B. Market Manipulation:
+   - Circular Trading
+   - Pump and Dump schemes
+   - Creating artificial volumes
+   - Price rigging
+   - Penalty: Severe monetary penalties and ban
+
+C. Front Running:
+   - Trading ahead of client orders
+   - Applicable to brokers, fund managers
+   - License cancellation risk
+
+2. TRADING TYPES AND RISKS:
+
+A. Equity Delivery (CNC):
+   - Risk: Limited to investment
+   - No leverage
+   - Settlement: T+2
+   - Suitable for all investors
+
+B. Intraday Trading (MIS):
+   - Risk: HIGH - Can lose more than margin
+   - Leverage up to 5x
+   - Auto square-off at 3:20 PM
+   - For experienced traders only
+
+C. Futures & Options:
+   - Risk: VERY HIGH - Unlimited loss potential
+   - Requires income proof
+   - Lot size trading
+   - Not for beginners
+
+3. COMPLIANCE REQUIREMENTS:
+   - Maintain trading records for 7 years
+   - Report suspicious transactions
+   - Follow position limits
+   - Comply with margin requirements

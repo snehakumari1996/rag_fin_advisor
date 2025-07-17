@@ -1,0 +1,40 @@
+
+SEBI GUIDELINES - DEMAT ACCOUNT OPENING REQUIREMENTS
+
+1. MANDATORY DOCUMENTS FOR DEMAT ACCOUNT:
+
+A. Identity Proof (Any One):
+   - PAN Card (Mandatory for all)
+   - Aadhaar Card
+   - Passport
+   - Voter ID Card
+   - Driving License
+
+B. Address Proof (Any One):
+   - Aadhaar Card  
+   - Bank Statement (not older than 3 months)
+   - Utility Bill (not older than 3 months)
+   - Passport
+   - Rent Agreement (registered)
+
+C. Bank Proof:
+   - Cancelled cheque with name printed
+   - Bank Statement/Passbook
+
+D. Income Proof (For F&O):
+   - Salary Slip (latest 3 months)
+   - ITR with acknowledgment
+   - Form 16
+   - Bank Statement (6 months)
+
+2. ACCOUNT OPENING CHARGES:
+   - Account Opening Fee: Rs 0-750
+   - Annual Maintenance: Rs 300-900
+   - Transaction Charges: 0.01% to 0.05%
+   - DP Charges: Rs 15-25 per transaction
+
+3. KYC PROCESS:
+   - In-Person Verification (IPV) mandatory
+   - Video IPV allowed for online
+   - Re-KYC required periodically
+   - Aadhaar-based e-KYC available

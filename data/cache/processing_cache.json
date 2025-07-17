@@ -1,0 +1,98 @@
+{
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/common_practices.txt": {
+    "size": 952,
+    "modified": 1752577333.0,
+    "chunks": 1,
+    "processed_at": "2025-07-16T10:37:31.206549"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/rbi/payment_guidelines.txt": {
+    "size": 748,
+    "modified": 1752577333.0,
+    "chunks": 1,
+    "processed_at": "2025-07-16T10:37:31.411183"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/nse/investor_charter.txt": {
+    "size": 723,
+    "modified": 1752577333.0,
+    "chunks": 1,
+    "processed_at": "2025-07-16T10:37:31.662530"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/sebi/demat_account_guide.txt": {
+    "size": 987,
+    "modified": 1752577333.0,
+    "chunks": 1,
+    "processed_at": "2025-07-16T10:37:32.062342"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/sebi/trading_regulations.txt": {
+    "size": 1203,
+    "modified": 1752577333.0,
+    "chunks": 2,
+    "processed_at": "2025-07-16T10:37:31.872796"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/rbi/Utkarsh30122022.pdf": {
+    "size": 1287253,
+    "modified": 1752675406.0,
+    "chunks": 37,
+    "processed_at": "2025-07-16T14:17:50.427120"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/indiacode/userGuide.pdf": {
+    "size": 1431997,
+    "modified": 1752661957.0,
+    "chunks": 12,
+    "processed_at": "2025-07-16T10:37:30.944351"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/legislative/userGuide.pdf": {
+    "size": 1431997,
+    "modified": 1752675420.0,
+    "chunks": 12,
+    "processed_at": "2025-07-16T14:17:50.481152"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/sebi/1749647139924.pdf": {
+    "size": 595150,
+    "modified": 1752674017.0,
+    "chunks": 73,
+    "processed_at": "2025-07-16T13:54:23.378654"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/sebi/Caution Notice in the matter of Sai Prasad - English, Hindi & Marathi_p.pdf": {
+    "size": 626305,
+    "modified": 1752674021.0,
+    "chunks": 5,
+    "processed_at": "2025-07-16T13:54:23.442280"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/sebi/Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited.pdf": {
+    "size": 205276,
+    "modified": 1752674023.0,
+    "chunks": 4,
+    "processed_at": "2025-07-16T13:54:23.469053"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/sebi/guidelines-of-data-sharing-final.pdf": {
+    "size": 800294,
+    "modified": 1752674028.0,
+    "chunks": 23,
+    "processed_at": "2025-07-16T13:54:23.541648"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/pfrda/Frequently Asked Questions - All Citizen Aug2022(1)35aa6cdc-6983-4b0a-9d9c-e47a6fb8a91c.pdf": {
+    "size": 471848,
+    "modified": 1752675434.0,
+    "chunks": 41,
+    "processed_at": "2025-07-16T14:17:50.573105"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/pfrda/Presentation - Corporate NPS - Website Aug2022d6524d42-3f69-44ad-8830-2bc7dde27c0e.pdf": {
+    "size": 1637369,
+    "modified": 1752675438.0,
+    "chunks": 12,
+    "processed_at": "2025-07-16T14:17:50.670989"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/dpiit/SOP.pdf": {
+    "size": 379132,
+    "modified": 1752675444.0,
+    "chunks": 52,
+    "processed_at": "2025-07-16T14:17:50.780172"
+  },
+  "/content/drive/MyDrive/RAG_fin_iter1/data/raw/dpiit/FDIPolicyForm.pdf": {
+    "size": 417656,
+    "modified": 1752675447.0,
+    "chunks": 1,
+    "processed_at": "2025-07-16T14:17:50.803123"
+  }
+}

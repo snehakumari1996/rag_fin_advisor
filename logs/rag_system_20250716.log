@@ -1,0 +1,92 @@
+2025-07-16 10:36:37,533 - config - INFO - Configuration loaded successfully
+2025-07-16 10:37:04,537 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-16 10:37:22,624 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 10:37:30,824 - config - INFO - Found 7 documents to process
+2025-07-16 10:37:30,850 - config - INFO - Processed Utkarsh30122022.pdf: 1 chunks
+2025-07-16 10:37:30,943 - config - INFO - Processed userGuide.pdf: 12 chunks
+2025-07-16 10:37:31,206 - config - INFO - Processed common_practices.txt: 1 chunks
+2025-07-16 10:37:31,410 - config - INFO - Processed payment_guidelines.txt: 1 chunks
+2025-07-16 10:37:31,661 - config - INFO - Processed investor_charter.txt: 1 chunks
+2025-07-16 10:37:31,872 - config - INFO - Processed trading_regulations.txt: 2 chunks
+2025-07-16 10:37:32,061 - config - INFO - Processed demat_account_guide.txt: 1 chunks
+2025-07-16 10:37:32,072 - config - INFO - Processing complete: {'total_files': 7, 'processed_files': 7, 'failed_files': 0, 'total_chunks': 19, 'processing_time': 1.259719}
+2025-07-16 10:37:32,169 - config - WARNING - Could not update existing store: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).. Creating new one.
+2025-07-16 10:37:32,170 - config - INFO - Creating vector store with 19 documents...
+2025-07-16 10:38:17,708 - config - INFO - Configuration loaded successfully
+2025-07-16 10:38:24,593 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-16 10:38:37,792 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 10:38:46,808 - config - INFO - Found 7 documents to process
+2025-07-16 10:38:46,825 - config - INFO - Processing complete: {'total_files': 7, 'processed_files': 0, 'failed_files': 0, 'total_chunks': 0, 'processing_time': 0.029361}
+2025-07-16 11:34:24,241 - config - INFO - Configuration loaded successfully
+2025-07-16 11:34:30,711 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-16 11:34:38,439 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 11:34:42,152 - config - INFO - Found 7 documents to process
+2025-07-16 11:34:42,259 - config - INFO - Processed Utkarsh30122022.pdf: 37 chunks
+2025-07-16 11:34:42,268 - config - INFO - Processing complete: {'total_files': 7, 'processed_files': 1, 'failed_files': 0, 'total_chunks': 37, 'processing_time': 0.132274}
+2025-07-16 11:34:42,272 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-16 11:34:42,301 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 11:34:42,308 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-16 11:34:49,148 - config - INFO - Updated vector store with 37 new documents
+2025-07-16 11:54:00,401 - config - INFO - Configuration loaded successfully
+2025-07-16 11:54:14,206 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-16 11:54:25,522 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 11:54:29,864 - config - INFO - Found 8 documents to process
+2025-07-16 11:54:29,969 - config - INFO - Processed Utkarsh30122022.pdf: 37 chunks
+2025-07-16 11:54:30,020 - config - INFO - Processed userGuide.pdf: 12 chunks
+2025-07-16 11:54:30,028 - config - INFO - Processing complete: {'total_files': 8, 'processed_files': 2, 'failed_files': 0, 'total_chunks': 49, 'processing_time': 0.18024}
+2025-07-16 11:54:30,031 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-16 11:54:30,057 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 11:54:30,063 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-16 11:54:35,940 - config - INFO - Updated vector store with 49 new documents
+2025-07-16 11:57:22,444 - config - INFO - Configuration loaded successfully
+2025-07-16 11:57:30,029 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-16 11:57:36,009 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 11:57:40,620 - config - INFO - Found 8 documents to process
+2025-07-16 11:57:40,651 - config - INFO - Processing complete: {'total_files': 8, 'processed_files': 0, 'failed_files': 0, 'total_chunks': 0, 'processing_time': 0.0544}
+2025-07-16 13:54:04,406 - config - INFO - Configuration loaded successfully
+2025-07-16 13:54:12,619 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-16 13:54:19,933 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 13:54:23,243 - config - INFO - Found 12 documents to process
+2025-07-16 13:54:23,378 - config - INFO - Processed 1749647139924.pdf: 73 chunks
+2025-07-16 13:54:23,441 - config - INFO - Processed Caution Notice in the matter of Sai Prasad - English, Hindi & Marathi_p.pdf: 5 chunks
+2025-07-16 13:54:23,468 - config - INFO - Processed Requirements%20for%20filing%20objections%20wrt%20properties%20of%20PACL%20Limited.pdf: 4 chunks
+2025-07-16 13:54:23,541 - config - INFO - Processed guidelines-of-data-sharing-final.pdf: 23 chunks
+2025-07-16 13:54:23,604 - config - INFO - Processed userGuide.pdf: 12 chunks
+2025-07-16 13:54:23,614 - config - INFO - Processing complete: {'total_files': 12, 'processed_files': 5, 'failed_files': 0, 'total_chunks': 117, 'processing_time': 0.388696}
+2025-07-16 13:54:23,617 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-16 13:54:23,643 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 13:54:23,649 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-16 13:54:40,109 - config - INFO - Updated vector store with 117 new documents
+2025-07-16 13:56:08,991 - config - INFO - Configuration loaded successfully
+2025-07-16 13:56:14,780 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-16 13:56:21,586 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 13:56:25,380 - config - INFO - Found 12 documents to process
+2025-07-16 13:56:25,390 - config - INFO - Processing complete: {'total_files': 12, 'processed_files': 0, 'failed_files': 0, 'total_chunks': 0, 'processing_time': 0.02773}
+2025-07-16 14:17:33,485 - config - INFO - Configuration loaded successfully
+2025-07-16 14:17:39,560 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-16 14:17:46,599 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 14:17:50,317 - config - INFO - Found 17 documents to process
+2025-07-16 14:17:50,426 - config - INFO - Processed Utkarsh30122022.pdf: 37 chunks
+2025-07-16 14:17:50,480 - config - INFO - Processed userGuide.pdf: 12 chunks
+2025-07-16 14:17:50,572 - config - INFO - Processed Frequently Asked Questions - All Citizen Aug2022(1)35aa6cdc-6983-4b0a-9d9c-e47a6fb8a91c.pdf: 41 chunks
+2025-07-16 14:17:50,670 - config - INFO - Processed Presentation - Corporate NPS - Website Aug2022d6524d42-3f69-44ad-8830-2bc7dde27c0e.pdf: 12 chunks
+2025-07-16 14:17:50,779 - config - INFO - Processed SOP.pdf: 52 chunks
+2025-07-16 14:17:50,802 - config - INFO - Processed FDIPolicyForm.pdf: 1 chunks
+2025-07-16 14:17:50,813 - config - WARNING - No text extracted from /content/drive/MyDrive/RAG_fin_iter1/data/raw/dpiit/stqc_dipp.pdf
+2025-07-16 14:17:50,821 - config - INFO - Processing complete: {'total_files': 17, 'processed_files': 6, 'failed_files': 1, 'total_chunks': 155, 'processing_time': 0.53443}
+2025-07-16 14:17:50,824 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-16 14:17:50,853 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 14:17:50,859 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-16 14:18:12,531 - config - INFO - Updated vector store with 155 new documents
+2025-07-16 15:10:58,114 - config - INFO - Configuration loaded successfully
+2025-07-16 15:11:04,060 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-16 15:11:10,759 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 15:11:13,871 - config - INFO - Found 17 documents to process
+2025-07-16 15:11:13,885 - config - WARNING - No text extracted from /content/drive/MyDrive/RAG_fin_iter1/data/raw/dpiit/stqc_dipp.pdf
+2025-07-16 15:11:13,894 - config - INFO - Processing complete: {'total_files': 17, 'processed_files': 0, 'failed_files': 1, 'total_chunks': 0, 'processing_time': 0.048712}
+2025-07-16 15:15:33,890 - config - INFO - Configuration loaded successfully
+2025-07-16 15:15:39,573 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-16 15:15:46,975 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 15:15:50,858 - config - INFO - Found 17 documents to process
+2025-07-16 15:15:50,872 - config - WARNING - No text extracted from /content/drive/MyDrive/RAG_fin_iter1/data/raw/dpiit/stqc_dipp.pdf
+2025-07-16 15:15:50,881 - config - INFO - Processing complete: {'total_files': 17, 'processed_files': 0, 'failed_files': 1, 'total_chunks': 0, 'processing_time': 0.0489}

@@ -1,0 +1,189 @@
+2025-07-15 05:39:03,565 - config - INFO - Configuration loaded successfully
+2025-07-15 05:39:51,715 - config - INFO - Configuration loaded successfully
+2025-07-15 05:40:43,833 - config - INFO - Configuration loaded successfully
+2025-07-15 05:41:19,144 - config - INFO - Configuration loaded successfully
+2025-07-15 05:41:19,150 - config - INFO - Initializing RAG system...
+2025-07-15 05:41:19,150 - config - ERROR - Failed to initialize RAG: name 'FinancialAdvisorRAG' is not defined
+2025-07-15 09:18:19,171 - config - INFO - Configuration loaded successfully
+2025-07-15 09:18:37,866 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 09:18:55,171 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 09:19:04,828 - config - INFO - Found 0 documents to process
+2025-07-15 09:19:04,836 - config - INFO - Processing complete: {'total_files': 0, 'processed_files': 0, 'failed_files': 0, 'total_chunks': 0, 'processing_time': 0.023596}
+2025-07-15 09:19:22,046 - config - INFO - Configuration loaded successfully
+2025-07-15 09:19:22,511 - config - INFO - Initializing RAG system...
+2025-07-15 09:19:22,512 - config - ERROR - Failed to initialize RAG: name 'FinancialAdvisorRAG' is not defined
+2025-07-15 09:21:25,976 - config - INFO - Configuration loaded successfully
+2025-07-15 09:21:25,983 - config - INFO - Initializing RAG system...
+2025-07-15 09:21:33,406 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 09:21:39,159 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 09:21:43,730 - config - ERROR - No vector store found at /content/drive/MyDrive/RAG_fin_iter1/data/faiss_index
+2025-07-15 09:21:43,730 - config - ERROR - Failed to initialize RAG: No vector store found. Run document processing first.
+2025-07-15 11:19:49,665 - config - INFO - Configuration loaded successfully
+2025-07-15 11:20:00,688 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 11:20:10,449 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 11:20:15,017 - config - INFO - Found 5 documents to process
+2025-07-15 11:20:15,028 - config - INFO - Processed common_practices.txt: 1 chunks
+2025-07-15 11:20:15,035 - config - INFO - Processed payment_guidelines.txt: 1 chunks
+2025-07-15 11:20:15,041 - config - INFO - Processed investor_charter.txt: 1 chunks
+2025-07-15 11:20:15,050 - config - INFO - Processed demat_account_guide.txt: 1 chunks
+2025-07-15 11:20:15,056 - config - INFO - Processed trading_regulations.txt: 2 chunks
+2025-07-15 11:20:15,064 - config - INFO - Processing complete: {'total_files': 5, 'processed_files': 5, 'failed_files': 0, 'total_chunks': 6, 'processing_time': 0.072578}
+2025-07-15 11:20:15,067 - config - INFO - Creating vector store with 6 documents...
+2025-07-15 11:20:16,734 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 11:20:16,912 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 11:20:16,927 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 11:20:16,965 - config - INFO - Vector store saved to /content/drive/MyDrive/RAG_fin_iter1/data/faiss_index
+2025-07-15 11:23:21,403 - config - INFO - Configuration loaded successfully
+2025-07-15 11:23:21,410 - config - INFO - Initializing RAG system...
+2025-07-15 11:23:27,033 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 11:23:33,810 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 11:23:37,979 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 11:23:38,028 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 11:23:38,036 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 11:23:38,047 - config - INFO - Vector store loaded successfully
+2025-07-15 11:23:38,048 - config - INFO - ✅ RAG system initialized successfully
+2025-07-15 11:23:38,506 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-15 11:23:38,584 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-15 11:23:38,660 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-15 11:23:39,031 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-07-15 11:23:39,197 - httpx - INFO - HTTP Request: GET https://cdn-media.huggingface.co/frpc-gradio-0.3/frpc_linux_amd64 "HTTP/1.1 200 OK"
+2025-07-15 11:24:19,413 - config - INFO - Processing query: What documents do I need to open a demat account?...
+2025-07-15 11:24:19,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-15 11:24:19,701 - config - ERROR - Error processing query: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************wv0A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-15 11:24:44,895 - config - INFO - Processing query: What documents do I need to open a demat account?...
+2025-07-15 11:24:45,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-15 11:24:45,138 - config - ERROR - Error processing query: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************wv0A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-15 11:27:56,601 - config - INFO - Processing query: How do I file a complaint with SEBI against my broker?...
+2025-07-15 11:27:56,780 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-15 11:27:56,782 - config - ERROR - Error processing query: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************wv0A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-15 11:44:44,340 - config - INFO - Processing query: What documents do I need to open a demat account?...
+2025-07-15 11:44:44,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-15 11:44:44,819 - config - ERROR - Error processing query: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************wv0A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-15 11:46:29,982 - config - INFO - Configuration loaded successfully
+2025-07-15 11:46:29,989 - config - INFO - Initializing RAG system...
+2025-07-15 11:46:37,705 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 11:46:44,134 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 11:46:48,811 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 11:46:49,473 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 11:46:49,479 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 11:46:49,487 - config - INFO - Vector store loaded successfully
+2025-07-15 11:46:49,488 - config - INFO - ✅ RAG system initialized successfully
+2025-07-15 11:46:49,972 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-15 11:50:02,969 - config - INFO - Configuration loaded successfully
+2025-07-15 11:50:02,975 - config - INFO - Initializing RAG system...
+2025-07-15 11:50:09,261 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 11:50:15,876 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 11:50:19,504 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 11:50:20,068 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 11:50:20,074 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 11:50:20,083 - config - INFO - Vector store loaded successfully
+2025-07-15 11:50:20,085 - config - INFO - ✅ RAG system initialized successfully
+2025-07-15 11:50:20,507 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-15 11:50:20,527 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-15 11:50:20,538 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-15 11:50:20,891 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-07-15 11:51:27,583 - config - INFO - Processing query: What documents do I need to open a demat account?...
+2025-07-15 11:51:27,888 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-15 11:51:27,890 - config - ERROR - Error processing query: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************wv0A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-15 12:12:52,095 - config - INFO - Configuration loaded successfully
+2025-07-15 12:12:52,105 - config - INFO - Initializing RAG system...
+2025-07-15 12:13:06,029 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 12:13:21,252 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 12:13:29,115 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 12:13:29,174 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 12:13:29,180 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 12:13:29,188 - config - INFO - Vector store loaded successfully
+2025-07-15 12:13:29,189 - config - INFO - ✅ RAG system initialized successfully
+2025-07-15 12:13:29,639 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-15 12:13:29,651 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-15 12:13:29,672 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-15 12:13:30,040 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-07-15 12:14:09,381 - config - INFO - Processing query: What documents do I need to open a demat account?...
+2025-07-15 12:14:14,780 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-15 12:14:14,813 - config - ERROR - Error in chat interface: unhashable type: 'dict'
+2025-07-15 12:15:24,694 - config - INFO - Configuration loaded successfully
+2025-07-15 12:15:24,703 - config - INFO - Initializing RAG system...
+2025-07-15 12:15:38,302 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 12:15:48,786 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 12:15:53,620 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 12:15:53,649 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 12:15:53,655 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 12:15:53,662 - config - INFO - Vector store loaded successfully
+2025-07-15 12:15:53,663 - config - INFO - ✅ RAG system initialized successfully
+2025-07-15 12:15:54,083 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-15 12:15:54,107 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-15 12:15:54,109 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-15 12:15:54,457 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-07-15 12:16:10,510 - config - INFO - Using cached response
+2025-07-15 12:16:10,511 - config - ERROR - Error in chat interface: unhashable type: 'dict'
+2025-07-15 12:43:49,244 - config - INFO - Configuration loaded successfully
+2025-07-15 12:43:49,287 - config - INFO - Initializing RAG system...
+2025-07-15 12:43:55,520 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 12:44:03,137 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 12:44:06,824 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 12:44:07,384 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 12:44:07,393 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 12:44:07,401 - config - INFO - Vector store loaded successfully
+2025-07-15 12:44:07,402 - config - INFO - ✅ RAG system initialized successfully
+2025-07-15 12:44:07,821 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-15 12:44:07,850 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-15 12:44:07,852 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-15 12:44:08,217 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-07-15 12:45:38,723 - config - INFO - Using cached response
+2025-07-15 12:45:44,355 - config - INFO - Using cached response
+2025-07-15 12:46:46,483 - config - INFO - Using cached response
+2025-07-15 12:50:39,210 - config - INFO - Configuration loaded successfully
+2025-07-15 12:50:39,217 - config - INFO - Initializing RAG system...
+2025-07-15 12:50:45,035 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 12:50:51,950 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 12:50:55,680 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 12:50:56,235 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 12:50:56,241 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 12:50:56,247 - config - INFO - Vector store loaded successfully
+2025-07-15 12:50:56,248 - config - INFO - ✅ RAG system initialized successfully
+2025-07-15 12:50:56,686 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-15 12:52:05,762 - config - INFO - Configuration loaded successfully
+2025-07-15 12:52:05,767 - config - INFO - Initializing RAG system...
+2025-07-15 12:52:12,278 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 12:52:18,310 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 12:52:23,310 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 12:52:23,351 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 12:52:23,359 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 12:52:23,366 - config - INFO - Vector store loaded successfully
+2025-07-15 12:52:23,368 - config - INFO - ✅ RAG system initialized successfully
+2025-07-15 12:52:23,813 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-15 12:52:23,840 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-15 12:52:23,841 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-15 12:52:24,196 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-07-15 12:52:41,854 - config - INFO - Using cached response
+2025-07-15 12:52:41,855 - config - ERROR - Error in chat interface: unhashable type: 'dict'
+2025-07-15 12:55:59,188 - config - INFO - Configuration loaded successfully
+2025-07-15 12:55:59,194 - config - INFO - Initializing RAG system...
+2025-07-15 12:56:05,761 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 12:56:11,474 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 12:56:16,139 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 12:56:16,708 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 12:56:16,714 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 12:56:16,722 - config - INFO - Vector store loaded successfully
+2025-07-15 12:56:16,723 - config - INFO - ✅ RAG system initialized successfully
+2025-07-15 12:56:17,204 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-15 12:57:48,055 - config - INFO - Configuration loaded successfully
+2025-07-15 12:57:48,061 - config - INFO - Initializing RAG system...
+2025-07-15 12:57:53,838 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2025-07-15 12:58:00,759 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 12:58:04,390 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-15 12:58:04,946 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 12:58:04,952 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-15 12:58:04,960 - config - INFO - Vector store loaded successfully
+2025-07-15 12:58:04,961 - config - INFO - ✅ RAG system initialized successfully
+2025-07-15 12:58:05,398 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-07-15 12:58:05,416 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-07-15 12:58:05,425 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-07-15 12:58:05,775 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-07-15 12:58:23,736 - config - INFO - Using cached response
+2025-07-15 13:16:41,991 - config - INFO - Processing query: if i use a fake identity what chages can a person face?
+...
+2025-07-15 13:16:45,295 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-15 13:17:28,297 - config - INFO - Processing query: kyc requirements for this?
+...
+2025-07-15 13:17:31,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

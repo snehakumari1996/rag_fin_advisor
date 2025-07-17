@@ -11,7 +11,7 @@ from datetime import datetime
 # Base directory - works both in Colab and local
 if os.path.exists("/content/drive/MyDrive"):
     # Running in Colab
-    ROOT = Path("/content/drive/MyDrive/RAG_financial_advisor_iter1")
+    ROOT = Path("/content/drive/MyDrive/RAG_fin_iter1")
 else:
     # Running locally
     ROOT = Path(__file__).parent.parent
